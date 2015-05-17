@@ -1,3 +1,5 @@
+/* Even Fibonacci numbers */
+
 (function () {
     'use strict';
 

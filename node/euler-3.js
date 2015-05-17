@@ -1,3 +1,5 @@
+/* Largest prime factor */
+
 (function () {
     'use strict';
 
