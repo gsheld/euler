@@ -1,0 +1,7 @@
+{
+    "name": "euler-node",
+    "private": "true",
+    "dependencies": {
+        "lodash": "^3.8.0"
+    }
+}
