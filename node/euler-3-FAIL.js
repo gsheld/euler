@@ -12,6 +12,8 @@
         lPrime = false,
         n = process.argv[2];
 
+    // Note 5/23/15: I have reason to believe this primality check is not entirely correct. 
+    // See euler-7.js.
     function isPrime(x) {
         var i;
     
@@ -53,27 +55,27 @@
             }
 
             console.log('Checking x % ' + (i + 10));
-            if (n % (i + 10) === 0) {
+            if (x % (i + 10) === 0) {
                 return i + 10;
             }
 
             console.log('Checking x % ' + (i + 12));
-            if (n % (i + 12) === 0) {
+            if (x % (i + 12) === 0) {
                 return i + 12;
             }
 
             console.log('Checking x % ' + (i + 16));
-            if (n % (i + 16) === 0) {
+            if (x % (i + 16) === 0) {
                 return i + 16;
             }
 
             console.log('Checking x % ' + (i + 22));
-            if (n % (i + 22) === 0) {
+            if (x % (i + 22) === 0) {
                 return i + 22;
             }
 
             console.log('Checking x % ' + (i + 24));
-            if (n % (i + 24) === 0) {
+            if (x % (i + 24) === 0) {
                 return i + 24;
             }
         }
