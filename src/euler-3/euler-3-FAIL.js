@@ -1,6 +1,7 @@
 /* Largest prime factor */
 
-/* Note 5/17/15: This script fails due to inherent inefficiencies. Although
+/**
+ * Note 5/17/15: This script fails due to inherent inefficiencies. Although
  * capable of producing the correct answer, the runtime becomes prohibitively
  * long for large numbers (such as that given in the problem statement).
  */
