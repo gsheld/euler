@@ -1,4 +1,6 @@
 {
     "node"      : true,
-    "plusplus"  : true
+    "plusplus"  : false,
+    "undef"     : true,
+    "latedef"   : true
 }
