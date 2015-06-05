@@ -2,5 +2,6 @@
     "node"      : true,
     "plusplus"  : false,
     "undef"     : true,
-    "latedef"   : true
+    "latedef"   : false,
+    "strict"    : true
 }
